@@ -14,9 +14,8 @@
 
  A intenção por trás da escolha do tema é ajudar na divulgação e apresentação da academia de nossos conhecidos.
 
-## 3. Planjamento
+## 3. O que iremos trabalhar
 
-> Apresentar o básico, porém essencial:
  - Modalidades
  - Horário funcionamento
  - Mensalidade
