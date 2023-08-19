@@ -1,8 +1,8 @@
 # CTFT - JMCTecnology
 
-    Cintia Zumerle - 202302380891
-    João Pedro Gianoni - 202304362378
-    Marina Zumerle - 202302382371
+ >- Cintia Zumerle - 202302380891
+ >- João Pedro Gianoni - 202304362378
+ >- Marina Zumerle - 202302382371
 
 ## 1. Descrição e Apresentação do Tema
 
