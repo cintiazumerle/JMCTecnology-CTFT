@@ -4,7 +4,7 @@
  - João Pedro Gianoni - 202304362378
  -  Marina Zumerle - 202302382371
 
-## 1. Descrição e Apresentação do Tema
+## 1. Apresentação do Tema
 
 - Projeto de Desenvolvimento Web em HTML, CSS, PHP e JAVASCRIPT
 - O tema escolhido foi academia/esportes. Especificamete, a academia CTFT - "Centro de Treinamento Fabiano Treviso", pois  os integrantes do grupo gostam de espotes e dessa academia.
