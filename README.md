@@ -1,2 +1,3 @@
 # JMCTecnology-CTFT
-Desenvolvimento Web - CTFT
+## Tema: Academia 
+Academia "Centro de Treinamento Fabiano Treviso" - CTFT
