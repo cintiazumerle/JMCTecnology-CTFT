@@ -14,15 +14,4 @@
 
  A intenção por trás da escolha do tema é ajudar na divulgação e apresentação da academia de nossos conhecidos.
 
-## 3. O que iremos trabalhar
-
- - Modalidades
- - Horário funcionamento
- - Mensalidade
- - Agendamento nas aulas do dia e de aulas experimentais
- - Contato e redes sociais
- - Endereço
- - Eventos e parcerias
-  
-  > A partir de cada tópico iremos aprimorar, ao longo do processo, o que acaharmos que melhor se encaixa na proposta do tema.
 
