@@ -8,5 +8,16 @@
 <body>
     <h1>Login</h1>
     <P>Acesso dos alunos cadastrados: plano, forma de pagamento e proximas cobranças</P>
+
+    <form action="processar_cadastro.php" method="post">
+    <fieldset>
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" name="cpf" required><br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required><br><br>
+
+        <input type="submit" value="login">
+    </fieldset>
 </body>
 </html>
