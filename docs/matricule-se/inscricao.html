@@ -7,109 +7,90 @@
     <link rel="stylesheet" href="../estilos/styles.css">
 </head>
 <body>
-    <header>
-        <h1>Cadastro de Cliente - Academia</h1>
-    </header>
-    <form action="https://webhook.site/40f05e9a-d9dc-4c8b-83a0-892409f17800" method="post">
-        <fieldset>
-            <legend>Informações Pessoais</legend>
+    <div class="container">
+        <div class="form">
+            <form action="https://webhook.site/cf62bb23-ef85-4303-989b-85869cfe1ae4">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="start-button">
+                        <button><a href="https://cintiazumerle.github.io/WebSite-CTFT/">Início</a></button>
+                    </div>
+                </div>
 
-            <abbr>*</abbr>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required placeholder="Nome Sobrenome"> <br><br>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="name">Nome</label>
+                        <input id="name" type="text" name="name" placeholder="Digite seu nome completo" required>
+                    </div>
 
-            <abbr>*</abbr>
-            <label for="email">e-mail:</label>
-            <input type="email" id="email" name="email" required placeholder="Melhor e-mail"> <br><br>
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu melhor email" required>
+                    </div>
 
-            <abbr>*</abbr>
-            <label for="telefone">Telefone:</label>
-            <input type="tel" id="telefone" name="telefone" required placeholder="(__)_____.____"> <br><br>
+                    <div class="input-box">
+                        <label for="number">CPF</label>
+                        <input id="number" type="tel" name="number" placeholder="xxx.xxx.xxx-xx" required>
+                    </div>
 
-            <abbr>*</abbr>
-            <label for="idade">Idade:</label>
-            <input type="number" id="idade" name="idade" required> <br><br>
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
 
-            <abbr>*</abbr>
-            <label for="genero">Gênero:</label>
-            <select id="genero" name="genero" required> <br><br>
-                <option value="masculino">Masculino</option>
-                <option value="feminino">Feminino</option>
-                <option value="outro">Outro</option>
-            </select>
-        </fieldset>
-        <fieldset>
-            <legend>Endereço</legend>
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Crie uma senha" required>
+                    </div>
 
-            <abbr>*</abbr>
-            <label for="rua">Rua:</label>
-            <input type="text" id="rua" name="rua" required><br><br>
-        
-            <label for="complemnto">Complemento:</label>
-            <input type="text" id="numero" name="complemento" required><br><br>
-        
-            <abbr>*</abbr>
-            <label for="cep">CEP:</label>
-            <input type="text" id="cep" name="cep" required placeholder="_____-___"><br><br>
+                    <div class="input-box">
+                        <label for="objective">Objetivo</label>
+                        <select id="objective" type="text" name="objective" placeholder="Escolha uma" required>
+                            <option value="perder_peso">Perder Peso</option>
+                            <option value="ganhar_massa_muscular">Ganhar Massa Muscular</option>
+                            <option value="aumentar_resistencia">Aumentar Resistência</option>
+                            <option value="aumentar_forca">Aumentar Força</option>
+                            <option value="melhorar_condicionamento">Melhorar o Condicionamento Físico</option>
+                            <option value="definir_musculos">Definir Músculos</option>
+                            <option value="melhorar_postura">Melhorar a Postura</option>
+                            <option value="aliviar_o_estresse">Aliviar o Estresse</option>
+                            <option value="aumentar_a_flexibilidade">Aumentar a Flexibilidade</option>
+                        </select>
+                    </div>
+                </div>
 
-            <abbr>*</abbr>
-            <label for="cidade">Cidade:</label>
-            <input type="text" id="cidade" name="cidade" required><br><br>
-        
-            <abbr>*</abbr>
-            <label for="estado">Estado:</label>
-            <select id="estado" name="estado" required>
-            <option value="AC">Acre (AC)</option>
-            <option value="AL">Alagoas (AL)</option>
-            <option value="AP">Amapá (AP)</option>
-            <option value="AM">Amazonas (AM)</option>
-            <option value="BA">Bahia (BA)</option>
-            <option value="CE">Ceará (CE)</option>
-            <option value="DF">Distrito Federal (DF)</option>
-            <option value="ES">Espírito Santo (ES)</option>
-            <option value="GO">Goiás (GO)</option>
-            <option value="MA">Maranhão (MA)</option>
-            <option value="MT">Mato Grosso (MT)</option>
-            <option value="MS">Mato Grosso do Sul (MS)</option>
-            <option value="MG">Minas Gerais (MG)</option>
-            <option value="PA">Pará (PA)</option>
-            <option value="PB">Paraíba (PB)</option>
-            <option value="PR">Paraná (PR)</option>
-            <option value="PE">Pernambuco (PE)</option>
-            <option value="PI">Piauí (PI)</option>
-            <option value="RJ">Rio de Janeiro (RJ)</option>
-            <option value="RN">Rio Grande do Norte (RN)</option>
-            <option value="RS">Rio Grande do Sul (RS)</option>
-            <option value="RO">Rondônia (RO)</option>
-            <option value="RR">Roraima (RR)</option>
-            <option value="SC">Santa Catarina (SC)</option>
-            <option value="SP">São Paulo (SP)</option>
-            <option value="SE">Sergipe (SE)</option>
-            <option value="TO">Tocantins (TO)</option>
-        </select><br><br>
-        </fieldset>        
-        <fieldset>
-            <legend>Objetivo</legend>
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Genêro</h6>
+                    </div>
 
-            <abbr>*</abbr>
-            <label for="objetivo">Objetivo:</label>
-            <select id="objetivo" name="objetivo" required> <br><br>
-                <option value="perder_peso">Perder Peso</option>
-                <option value="ganhar_massa_muscular">Ganhar Massa Muscular</option>
-                <option value="aumentar_resistencia">Aumentar Resistência</option>
-                <option value="aumentar_forca">Aumentar Força</option>
-                <option value="melhorar_condicionamento">Melhorar o Condicionamento Físico</option>
-                <option value="definir_musculos">Definir Músculos</option>
-                <option value="melhorar_postura">Melhorar a Postura</option>
-                <option value="aliviar_o_estresse">Aliviar o Estresse</option>
-                <option value="aumentar_a_flexibilidade">Aumentar a Flexibilidade</option>
-                <option value="outro">Outro (especifique abaixo)</option>
-            </select>
-            <label for="objetivo_detalhes"></label> <br><br>
-            <textarea id="objetivo_detalhes" name="objetivo_detalhes"></textarea> 
-        </fieldset>
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Feminino</label>
+                        </div>
 
-        <input type="submit" value="Cadastrar">
+                        <div class="gender-input">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Masculino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="others" name="gender">
+                            <label for="others">Outros</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="nome" name="gender">
+                            <label for="nome">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+        <div class="submit">      
+        <input type="submit" value="CADASTRAR">
+        </div>
     </form>
 </body>
 </html>
