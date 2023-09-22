@@ -4,20 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="../estilos/lstyles.css">
 </head>
 <body>
-    <h1>Login</h1>
-    <P>Acesso dos alunos cadastrados: plano, forma de pagamento e proximas cobranças</P>
+    <div class="container">
+        <div class="form">
+            <form action="https://webhook.site/cf62bb23-ef85-4303-989b-85869cfe1ae4">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Login</h1>
+                    </div>
+                    <div class="start-button">
+                        <button><a href="https://cintiazumerle.github.io/WebSite-CTFT/">Início</a></button>
+                    </div>
+                </div>
 
-    <form action="processar_cadastro.php" method="post">
-    <fieldset>
-        <label for="cpf">CPF:</label>
-        <input type="text" id="cpf" name="cpf" required><br><br>
+                <div class="input-box">
+                    <label for="number">CPF</label>
+                    <input id="number" type="tel" name="number" placeholder="xxx.xxx.xxx-xx" required>
+                </div>
 
-        <label for="senha">Senha:</label>
-        <input type="password" id="senha" name="senha" required><br><br>
+                <div class="input-box">
+                    <label for="password">Senha</label>
+                    <input id="password" type="password" name="password" placeholder="Escreva sua senha" required>
+                </div>
 
-        <input type="submit" value="login">
-    </fieldset>
+                <div class="submit">      
+                    <input type="submit" value="ENTRAR">
+                </div>
 </body>
 </html>
