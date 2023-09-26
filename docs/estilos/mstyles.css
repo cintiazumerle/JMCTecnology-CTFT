@@ -72,7 +72,7 @@ body {
     border-radius: 10px;
 }
 
-  .input-group {
+.input-group {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -116,27 +116,36 @@ body {
   color: rgba(0, 0, 0, 0.7450980392);
 }
 
-.input-box select {
-    margin: 0.6rem -1rem;
-    padding: 0.8rem 0rem;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1098039216);
+.input-box-select {
+  width: 43.5%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.1rem;
+}
+
+.input-box-select select {
+  width: 100%;
+  margin: 0.6rem 0;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1098039216);
+
 }
   
-  .input-box select:hover {
+  .input-box-select select:hover {
     background-color: rgba(238, 238, 238, 0.4588235294);
 }
   
-  .input-box select:focus-visible {
+  .input-box-select select:focus-visible {
     outline: 1px solid #00aeef;
 }
   
-  .input-box section::-moz-placeholder {
+  .input-box-select section::-moz-placeholder {
     color: rgba(0, 0, 0, 0.7450980392);
 }
   
-  .input-box select::placeholder {
+  .input-box-select select::placeholder {
     color: rgba(0, 0, 0, 0.7450980392);
 }
 
@@ -144,11 +153,6 @@ body {
   background-color: #fff; /* Cor de fundo das opções */
   color: #333; /* Cor do texto das opções */
   padding: 5px; /* Espaçamento interno das opções */
-}
-
-#objective option:hover {
-    background-color: #007bff; /* Cor de fundo das opções ao passar o cursor */
-    color: #fff; /* Cor do texto das opções ao passar o cursor */
 }
 
 .gender-group {
@@ -190,4 +194,29 @@ body {
   .submit input:hover {
     background-color: #153d8a;
 }
-  
+
+@media screen and (max-width: 1240px) {
+  .container {
+    width: 50%;
+  }
+
+  .form {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1064px) {
+  .container {
+    width: 60%;
+    height: auto;
+  }
+
+  .input-group {
+    flex-direction: column;
+    overflow-y: scroll;
+    flex-wrap: nowrap;
+    max-height: 15rem;
+    padding-right: 2rem;
+  }
+
+}
