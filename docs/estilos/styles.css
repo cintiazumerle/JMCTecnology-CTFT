@@ -1,0 +1,26 @@
+    body {
+        background-color: white;
+    }
+
+    table {
+        background-color: #fff;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    thead {
+        background-color: #153d8a;
+    }
+    tbody {
+        background-color:#fff;
+    }
+    
+    .horario {
+        background-color: #153d8a; 
+    }
+
+    th, td {
+        border: 1px solid #000;
+        padding: 8px;
+        text-align: center;
+    }
