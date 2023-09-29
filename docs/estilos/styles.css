@@ -194,26 +194,35 @@ nav {
 
 
 /* Grade de Horários */
-body {
-    background-color: white;
+.azul em {
+    color: #00aeef;
+}
+div{ 
+    text-align: center;
+    margin: 0 auto;
 }
 
 table {
     background-color: #fff;
-    border-collapse: collapse;
-    width: 100%;
+    width: 50%;
+    border-collapse: separate;
+    border: 5px solid #000;
+    padding: 5px;
+    margin: 0 auto; 
 }
 
 thead {
     background-color: #153d8a;
     color: #fff;
 }
-tbody {
-    background-color:#fff;
-}
 
 .horario {
     background-color: #153d8a; 
+    color: #fff;
+}
+
+.fundo {
+    background-color: #00aeef;
     color: #fff;
 }
 
