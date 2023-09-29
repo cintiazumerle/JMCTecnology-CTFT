@@ -1,4 +1,32 @@
-/* Cabeçalho */
+    body {
+        background-color: white;
+    }
+
+    table {
+        background-color: #fff;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    thead {
+        background-color: #153d8a;
+        color: #fff;
+    }
+    tbody {
+        background-color:#fff;
+    }
+    
+    .horario {
+        background-color: #153d8a; 
+        color: #fff;
+    }
+
+    th, td {
+        border: 1px solid #000;
+        padding: 8px;
+        text-align: center;
+    }
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
     margin: 0;
@@ -151,27 +179,4 @@ nav {
 
 .chamada1 button:hover{
     background-color: #00aeef;
-}
-   
-    /* Grade de Horários */
-table {
-        background-color: #fff;
-        border-collapse: collapse;
-        width: 100%;
-}
-
-thead {
-        background-color: #153d8a;
-        text-color: #fff;
-}
-
-tbody {
-        background-color:#fff;
-}
-    
-
-th, td {
-        border: 1px solid #000;
-        padding: 8px;
-        text-align: center;
 }
