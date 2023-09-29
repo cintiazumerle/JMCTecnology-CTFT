@@ -11,6 +11,7 @@
 
     thead {
         background-color: #153d8a;
+        color: #fff;
     }
     tbody {
         background-color:#fff;
@@ -18,6 +19,7 @@
     
     .horario {
         background-color: #153d8a; 
+        color: #fff;
     }
 
     th, td {
