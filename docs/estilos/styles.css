@@ -182,27 +182,4 @@ nav {
 .chamada1 button:hover{
     background-color: #00aeef;
 }
-   
-    /* Grade de Horários */
-table {
-        background-color: #fff;
-        border-collapse: collapse;
-        width: 100%;
-}
-
-thead {
-        background-color: #153d8a;
-        text-color: #fff;
-}
-
-tbody {
-        background-color:#fff;
-}
-    
-
-th, td {
-        border: 1px solid #000;
-        padding: 8px;
-        text-align: center;
-}
 >>>>>>> 1c0a4ac31300f560dc6285885b8d35437c65a31a
