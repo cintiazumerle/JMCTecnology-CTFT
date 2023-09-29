@@ -139,7 +139,7 @@ nav {
     margin-bottom: 30px;
 }
 
-.chamada1 button {
+.chamada1 a {
     padding: 10px 20px;
     background-color: #153d8a;
     color: #fff;
@@ -149,51 +149,16 @@ nav {
     border-radius: 20px;
     cursor: pointer;
     transition: 0.3s all;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
-.chamada1 button:hover{
+.chamada1 a:hover{
     background-color: #00aeef;
 }
 
+
 /* Sobre-Nos */
-#structure {
-    width: 100%;
-    height: 180vh;
-}
-
-#structure .title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#structure .title h1 {
-    font-size: 2.5rem;
-    margin-top: 30px;
-}
-
-.text-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 100px auto;
-    width: 90%;
-}
-
-.text p {
-    font-size: 20px;
-    text-align: center;
-}
-
-.img-about img {
-    max-width: 500px;
-    border-radius: 10px;
-    border: 3px solid #00aeef;
-    margin: 30px;
-}
-
-/* Modalidades */
-/* Sobre Nós */
 
 #structure {
     width: 100%;
@@ -235,8 +200,8 @@ nav {
     margin: 30px;
 }
 
-/* Modalidades */
 
+/* Modalidades */
 .container-type{
     width: 100%;
     height: auto;
