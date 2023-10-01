@@ -209,15 +209,15 @@ body {
 @media screen and (max-width: 1064px) {
   .container {
     width: 90%;
-    height: 90%;
+    height: auto;
   }
 
   .input-group {
     flex-direction: column;
     overflow-y: scroll;
     flex-wrap: nowrap;
-    max-height: 20rem;
-    padding-right: 5rem;
+    max-height: 17rem;
+    padding-right: 2rem;
   }
 
   .gender-inputs {
