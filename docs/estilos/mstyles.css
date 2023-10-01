@@ -209,14 +209,14 @@ body {
 @media screen and (max-width: 1064px) {
   .container {
     width: 90%;
-    height: auto;
+    height: 90%;
   }
 
   .input-group {
     flex-direction: column;
     overflow-y: scroll;
     flex-wrap: nowrap;
-    max-height: 15rem;
+    max-height: 20rem;
     padding-right: 5rem;
   }
 
@@ -229,11 +229,11 @@ body {
   }
 
   .input-box-select {
-    width: 90%;
+    width: 100%;
   }
 
   .gender-input {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     max-height: 0.5rem;
     padding-right: 2rem;
   }

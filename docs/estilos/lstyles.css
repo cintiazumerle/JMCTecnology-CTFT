@@ -136,28 +136,25 @@ body {
 
 @media screen and (max-width: 1330px) {
     .container {
-        width: 30%;
-        height: auto;
+      width: 100%;
     }
-}
-
-@media screen and (max-width: 770px) {
-    .container {
-        width: 40%;
-        height: auto;
+  
+    .form {
+      width: 100%;
     }
-}
-
-@media screen and (max-width: 425px) {
+  }
+  
+  @media screen and (max-width: 1064px) {
     .container {
-        width: 70%;
-        height: auto;
+      width: 90%;
+      height: 90%;
     }
-}
-
-@media screen and (max-width: 320px) {
-    .container {
-        width: 85%;
-        height: auto;
+  
+    .input-group {
+      flex-direction: column;
+      overflow-y: scroll;
+      flex-wrap: nowrap;
+      max-height: 15rem;
+      padding-right: 5rem;
     }
 }
