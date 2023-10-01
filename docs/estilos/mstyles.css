@@ -195,7 +195,8 @@ body {
     background-color: #153d8a;
 }
 
-@media screen and (max-width: 1240px) {
+
+@media screen and (max-width: 1330px) {
   .container {
     width: 50%;
   }
@@ -207,7 +208,7 @@ body {
 
 @media screen and (max-width: 1064px) {
   .container {
-    width: 60%;
+    width: 90%;
     height: auto;
   }
 
@@ -216,7 +217,24 @@ body {
     overflow-y: scroll;
     flex-wrap: nowrap;
     max-height: 15rem;
-    padding-right: 2rem;
+    padding-right: 5rem;
   }
 
+  .gender-inputs {
+    margin-top: 2rem;
+ }
+
+  .gender-group {
+    flex-direction: column;
+  }
+
+  .input-box-select {
+    width: 90%;
+  }
+
+  .gender-input {
+    margin-top: 0.5rem;
+    max-height: 0.5rem;
+    padding-right: 2rem;
+  }
 }
