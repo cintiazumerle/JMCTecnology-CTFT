@@ -405,7 +405,9 @@ footer {
         font-size: 2.3rem;
     }
 
-    #container table {
+    #container {
         max-width: 300px;
     }
+
+
 }
