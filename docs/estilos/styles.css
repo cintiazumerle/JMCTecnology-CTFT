@@ -260,6 +260,10 @@ table {
     margin: 40px auto; 
 }
 
+#container {
+    overflow-x: auto;
+}
+
 thead {
     background-color: #153d8a;
     color: #fff;
@@ -404,10 +408,5 @@ footer {
     .card h2 {
         font-size: 2.3rem;
     }
-
-    #container {
-        max-width: 300px;
-    }
-
 
 }
