@@ -252,15 +252,8 @@ nav {
 }
 
 /* Grade de Horários */
-
-.grade{ 
-    text-align: center;
-    margin: 0 auto;
-}
-
 table {
     background-color: #fff;
-    width: 50%;
     border-collapse: separate;
     border: 5px solid #000;
     padding: 5px;
@@ -298,7 +291,7 @@ footer {
 }
 
 /* Header responsivo */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 415px){
     header .container{
         justify-content: center;
         
@@ -319,4 +312,35 @@ footer {
     header .funcional h1 {
         font-size: 1.3rem;
     }
+}
+
+/* Tabela responsivo */
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+div#container {
+    overflow-x: auto;
+}
+
+.rTable {
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 415px){
+    .content{width: 94%;}
+
+    .rTable thead{display:none;}
+    .rTable tbody td{display: flex; flex-direction: column;}
+}
+
+@media only screen and (min-width: 1330px) {
+    .content{width: 100%;}
+
+    .rTable tbody tr td:nth-child(1){width:10%;}
+    .rTable tbody tr td:nth-child(2){width:15%;}
+    .rTable tbody tr td:nth-child(3){width:15%;}
+    .rTable tbody tr td:nth-child(4){width:15%;}
+    .rTable tbody tr td:nth-child(5){width:15%;}
+    .rTable tbody tr td:nth-child(6){width:15%;}
+    .rTable tbody tr td:nth-child(7){width:15%;}
 }
