@@ -296,3 +296,27 @@ footer {
     text-align: center;
     padding: 80px;
 }
+
+/* Header responsivo */
+@media screen and (max-width: 900px){
+    header .container{
+        justify-content: center;
+    }
+
+        header .chamada1 h3{
+            font-size: 3.5rem;
+    }
+
+    header .chamada1 p{
+        font-size: 1.1rem;
+    }
+
+    header .chamada1 button{
+        font-size: 0.9rem;
+    }
+
+    header .funcional h1 {
+        font-size: 1.3rem;
+    }
+}
+
