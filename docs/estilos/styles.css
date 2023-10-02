@@ -260,13 +260,8 @@ table {
     margin: 40px auto; 
 }
 
-<<<<<<< HEAD
 div#container {
     overflow-x: auto;
-=======
-div#container{
-overflow-x: auto;
->>>>>>> fc1c0a95bede5048f042388e482e7fe81cdda4f7
 }
 
 thead {
