@@ -252,12 +252,6 @@ nav {
 }
 
 /* Grade de Horários */
-
-.grade{ 
-    text-align: center;
-    margin: 0 auto;
-}
-
 table {
     background-color: #fff;
     width: 50%;
@@ -318,4 +312,29 @@ footer {
     header .funcional h1 {
         font-size: 1.3rem;
     }
+}
+
+/* Tabela responsivo */
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.rTable {
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 415px){
+    .content{width: 94%;}
+
+    .rTable thead{display:none;}
+    .rTable tbody td{display: flex; flex-direction: column;}
+
+    .content{width: 200%;}
+
+    .rTable tbody tr td:nth-child(1){width:20%;}
+    .rTable tbody tr td:nth-child(2){width:30%;}
+    .rTable tbody tr td:nth-child(3){width:30%;}
+    .rTable tbody tr td:nth-child(4){width:30%;}
+    .rTable tbody tr td:nth-child(5){width:30%;}
+    .rTable tbody tr td:nth-child(6){width:30%;}
+    .rTable tbody tr td:nth-child(7){width:30%;}
 }
