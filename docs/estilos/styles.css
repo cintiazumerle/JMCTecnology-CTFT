@@ -344,6 +344,76 @@ footer {
 
 }
 
+@media screen and (max-width: 426px) {
+    header {
+        min-width: 300px;
+    }
+
+    .desktop-menu {
+        display: none;
+    }
+
+    .call {
+        height: 12%;
+    }
+
+    header .chamada1 h3{
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    header .chamada1 p{
+        font-size: 1.7rem;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    header .chamada1 a{
+        font-size: 1rem;
+    }
+
+    header .funcional h1 {
+        font-size: 1.3rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .title {
+        min-width: 300px;
+        text-align: center;
+    }
+
+    .text-container, .text-container2{
+        min-width: 300px;
+    }
+
+    .container-type{
+        min-width: 300px;
+    }
+
+    .container-card {
+        margin: 30px -30px ;
+    }
+
+    .card {
+        padding: 10px;
+        width: 90%;
+    }
+
+    .card h2 {
+        font-size: 2.3rem;
+    }
+
+    #container table {
+        max-width: 300px;
+    }
+
+    footer {
+        min-width: 490px;
+    }
+}
+
 
 @media screen and (max-width: 425px){
 
