@@ -298,7 +298,7 @@ footer {
 }
 
 /* Header responsivo */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 415px){
     header .container{
         justify-content: center;
     }
