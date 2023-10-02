@@ -180,7 +180,7 @@ nav {
     color: #00aeef;
 }
 
-.text-container {
+.text-container, .text-container2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -260,10 +260,6 @@ table {
     margin: 40px auto; 
 }
 
-div#container {
-    overflow-x: auto;
-}
-
 thead {
     background-color: #153d8a;
     color: #fff;
@@ -294,15 +290,16 @@ footer {
     padding: 80px;
 }
 
-/* Header responsivo */
-@media screen and (max-width: 415px){
+/* Responsivo do site */
+@media screen and (max-width: 900px){
+
+
     header .container{
         justify-content: center;
-        
     }
 
-        header .chamada1 h3{
-            font-size: 3.5rem;
+    header .chamada1 h3{
+        font-size: 3.5rem;
     }
 
     header .chamada1 p{
@@ -316,6 +313,83 @@ footer {
     header .funcional h1 {
         font-size: 1.3rem;
     }
+
+    .title {
+        text-align: center;
+    }
+
+    .text-container {
+        flex-direction: column-reverse;
+    }
+
+    .text-container2 {
+        flex-direction: column;
+    }
+
+    .container-card {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 120px ;
+    }
+
+    .card {
+        padding: 20px;
+        width: 60%;
+    }
+
+    .card h2 {
+        font-size: 2rem;
+    }
+
 }
 
 
+@media screen and (max-width: 425px){
+
+    #home {
+        height: 190vh;
+
+    }
+
+    header .container{
+        justify-content: center;
+        
+    }
+
+    header .chamada1 h3{
+        font-size: 7rem;
+        text-align: center;
+    }
+
+    header .chamada1 p{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    header .chamada1 a{
+        font-size: 2rem;
+        margin-top: 90px;
+    }
+
+    header .menu {
+        height: 13%;
+    }
+
+    header .logo {
+        margin: 20px;
+    }
+
+    header .desktop-menu {
+        margin-top: 15px;
+    }
+
+    header .call{
+        height: 14%;
+    }
+    header .funcional h1 {
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 85px;
+    }
+}
