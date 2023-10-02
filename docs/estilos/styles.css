@@ -260,6 +260,10 @@ table {
     margin: 40px auto; 
 }
 
+div#container{
+overflow-x: auto;
+}
+
 thead {
     background-color: #153d8a;
     color: #fff;
@@ -314,33 +318,4 @@ footer {
     }
 }
 
-/* Tabela responsivo */
-*{margin: 0; padding: 0; box-sizing: border-box;}
 
-div#container {
-    overflow-x: auto;
-}
-
-.rTable {
-    text-align: center;
-    margin: 0 auto;
-}
-
-@media screen and (max-width: 415px){
-    .content{width: 94%;}
-
-    .rTable thead{display:none;}
-    .rTable tbody td{display: flex; flex-direction: column;}
-}
-
-@media only screen and (min-width: 1330px) {
-    .content{width: 100%;}
-
-    .rTable tbody tr td:nth-child(1){width:10%;}
-    .rTable tbody tr td:nth-child(2){width:15%;}
-    .rTable tbody tr td:nth-child(3){width:15%;}
-    .rTable tbody tr td:nth-child(4){width:15%;}
-    .rTable tbody tr td:nth-child(5){width:15%;}
-    .rTable tbody tr td:nth-child(6){width:15%;}
-    .rTable tbody tr td:nth-child(7){width:15%;}
-}
