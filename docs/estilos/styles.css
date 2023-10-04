@@ -392,6 +392,10 @@ footer {
         min-width: 300px;
     }
 
+    .img-about img {
+        max-width: 384px;
+    }
+
     .container-type{
         min-width: 300px;
     }
