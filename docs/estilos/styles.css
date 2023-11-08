@@ -251,40 +251,6 @@ nav {
     background-image: url('../img/Muay\ Thai\ 2\ CTFT.jpg');
 }
 
-/* Grade de Horários */
-table {
-    background-color: #fff;
-    border-collapse: separate;
-    border: 5px solid #000;
-    padding: 5px;
-    margin: 40px auto; 
-}
-
-#container {
-    overflow-x: auto;
-}
-
-thead {
-    background-color: #153d8a;
-    color: #fff;
-}
-
-.horario {
-    background-color: #153d8a; 
-    color: #fff;
-}
-
-.fundo {
-    background-color: #00aeef;
-    color: #fff;
-}
-
-th, td {
-    border: 1px solid #000;
-    padding: 8px;
-    text-align: center;
-}
-
 /* Footer */
 footer {
     background-color: #153d8a;
