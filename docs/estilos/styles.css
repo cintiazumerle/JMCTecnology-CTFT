@@ -253,30 +253,100 @@ nav {
 
 /* Footer */
 * {
-    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
     padding: 0%;
     box-sizing: border-box;
     letter-spacing: 1px;
+    position: relative;
+}
+
+main {
+    height: 80vh;
 }
 
 footer {
- width: 100;
- background-color:#153d8a
+    width: 100%;
+    color: #fff;
 }
 
-.footer_content {
+.footer-link {
+    text-decoration: none;
+}
+
+.footer-row {
+    background-color: #153d8a;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 3rem 3.5rem;
+    padding: 1rem 2rem;
 }
 
-.footer_contacts h1 {
+#footer_contacts h1 {
     margin-bottom: 0.75rem;
 }
 
-.footer_social_media {
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}   
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 2.5rem;
     width: 2.5rem;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;
+}
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+}
+
+#whatsapp {
+    background-color: #24d366;
+}
+
+#envelope {
+    background-color: #0055ff;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+    background-color: #4267b3;
+}
+
+#footer_location {
+    display: flex;
+    align-items: center;
+}
+
+#footer_location i {
+    margin-right: 5px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer_copyright {
+   position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+    font-weight: 20;
 }
 
 /* Responsivo do site */
