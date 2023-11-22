@@ -498,4 +498,19 @@ if (typeof document !== "undefined") {
 
 return VanillaTilt;
 
+function calcularImc() {
+  const peso = document.form_imc.peso.value;
+  const altura = document.form_imc.altura.value; 
+
+  const contentUrl = `index.php?peso=${peso}&altura=${altura}`;
+  fetch(contentUrl, {method: "get" })
+    .then((response) => response.json())
+    .then((responseJson) => exibirImc(responseJson))
+    .catch((error) => alert(error));
+}
+
+function exibirImc(jsonData) {
+  document.getElementById("resultado_imc").innerHTML = `Seu IMC e ${jsonData.imc}`;
+}
+
 }());
