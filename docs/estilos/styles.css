@@ -310,13 +310,21 @@ footer {
 
 .footer-row {
     background-color: #153d8a;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 1rem 2rem;
+    padding: 0.75rem 2rem;
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row nowrap;
+    justify-content: center; 
+    align-items: baseline;
+    align-content: space-between;
+  }
+
 #footer_contacts h1 {
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
 }
 
 #footer_social_media {
@@ -335,6 +343,7 @@ footer {
     border-radius: 50%;
     transition: all 0.4s;
 }
+
 #footer_social_media .footer-link i {
     font-size: 1.25rem;
 }
@@ -361,7 +370,6 @@ footer {
 
 #footer_location {
     display: flex;
-    align-items: center;
 }
 
 #footer_location i {
@@ -369,8 +377,6 @@ footer {
 }
 
 .footer-list {
-    display: flex;
-    flex-direction: column;
     gap: 0.5rem;
 }
 

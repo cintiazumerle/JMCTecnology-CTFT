@@ -243,60 +243,50 @@
     </div>
 </section>
     <!-- Footer -->
+    <main></main>
     <footer>
-        <div class="footer-row" id="footer_contacts">
-            <h1 id="fale-conosco">Entre em Contato</h1>
+            <div id="footer_contacts" class="footer-row">
+                <div class="footer-row">
+                    <h1>Entre em Contato</h1>
+                </div>
 
-            <div class="footer-row" id="footer_social_media">
-                <a href="https://wa.me/5519981203997" class="footer-link" id="whatsapp">
-                    <i class="fab fa-whatsapp"></i>
-                </a>
-        
-                <a href="mailto:crosslifetancredao@gmail.com" class="footer-link" id="envelope">
-                    <i class="far fa-envelope"></i>
-                </a>
+            <div class="flex-container">
+                <div id="footer_social_media" class="footer-row">
+                    <a href="https://wa.me/5519981203997" class="footer-link" id="whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    
+                    <a href="mailto:crosslifetancredao@gmail.com" class="footer-link" id="envelope">
+                        <i class="far fa-envelope"></i>
+                    </a>
 
-                <a href="https://www.instagram.com/ctftoficial/" class="footer-link" id="instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
 
-                <a href="https://www.facebook.com/ctftoficial" class="footer-link" id="facebook">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+
+                <div id="footer_location" class="footer-row">
+                    <i class="fas fa-location-dot"></i>
+                    <p>Av. Tancredo Neves, 343 - Jd. Santa Amália - Campinas,SP</p>
+                </div>
+                
+                <div class="footer-list footer-row">
+                    <p>Cintia Zumerle - 202302380891</p>
+                    <p>João Pedro Gianoni - 202304362378</p>
+                    <p>Marina Zumerle - 202302382371</p>     
+                </div>
+            </div>    
+
+                <div class="footer_copyright">
+                    JMC Tecnology &copy; 2023
+                </div>
             </div>
-
-            <div class="footer-row" id="footer_location">
-                <i class="fas fa-location-dot"></i>
-                <p>Av. Tancredo Neves, 343 - Jd. Santa Amália - Campinas - SP</p>
-            </div>
-            
-            <div class="footer-list footer-row">
-                <p>Cintia Zumerle - 202302380891</p>
-                <p>João Pedro Gianoni - 202304362378</p>
-                <p>Marina Zumerle - 202302382371</p>     
-            </div>
-
-            <div class="footer_copyright">
-                JMC Technology &copy; 2023
-            </div>
-
-            <form name="form_imc">
-                <label>Peso:
-                  <input type="number" step="0.1" name="peso">
-                </label>
-                <br>
-                <label>Altura
-                  <input type="number" step="0.01" name="altura">
-                </label>
-                <br>
-                <button type="button" onclick="calcularImc()">Calcular IMC</button>
-              </form>
-              <div id="resultado_imc"></div>
-              <script src="script.js"></script>
-
-
-        </div>
-</footer>
+    </footer>
+    
 </main>
 </body>
 </html>
