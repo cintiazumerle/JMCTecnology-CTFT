@@ -37,7 +37,6 @@ header {
 }
 
 header .menu {
-    width: 100vw;
     height: 100px;
     background-color: #153d8a;
     border-radius: 20px;
@@ -92,7 +91,6 @@ nav {
 }
 
 .call {
-    width: 100vw;
     height: 50px;
     background: #fff;
     box-shadow: 0 0 10px #00aeef;
@@ -214,7 +212,6 @@ nav {
 }
 
 .container-card {
-    margin: 10px;
     width: 100%;
 }
 
