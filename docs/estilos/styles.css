@@ -260,6 +260,11 @@ table {
     margin: 40px auto; 
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
 #container {
     overflow-x: auto;
 }
