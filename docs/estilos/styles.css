@@ -390,3 +390,122 @@ footer {
 }
 
 /* Responsivo do site */
+@media screen and (max-width: 900px){
+
+
+    header .container{
+        justify-content: center;
+    }
+
+    header .chamada1 h3{
+        font-size: 3.5rem;
+    }
+
+    header .chamada1 p{
+        font-size: 1.1rem;
+    }
+
+    header .chamada1 button{
+        font-size: 0.9rem;
+    }
+
+    header .funcional h1 {
+        font-size: 1.3rem;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .text-container {
+        flex-direction: column-reverse;
+    }
+
+    .text-container2 {
+        flex-direction: column;
+    }
+
+    .container-card {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 120px ;
+    }
+
+    .card {
+        padding: 20px;
+        width: 60vw;
+    }
+
+    .card h2 {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+    header {
+        min-width: 300px;
+    }
+
+    .desktop-menu {
+        display: none;
+    }
+
+    .call {
+        height: 12vw;
+    }
+
+    header .chamada1 h3{
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    header .chamada1 p{
+        font-size: 1.7rem;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    header .chamada1 a{
+        font-size: 1rem;
+    }
+
+    header .funcional h1 {
+        font-size: 1.3rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .title {
+        min-width: 300px;
+        text-align: center;
+    }
+
+    .text-container, .text-container2{
+        min-width: 300px;
+    }
+
+    .img-about img {
+        max-width: 384px;
+    }
+
+    .container-type{
+        min-width: 300px;
+    }
+
+    .container-card {
+        margin: 30px -30px ;
+    }
+
+    .card {
+        padding: 10px;
+        width: 90%;
+    }
+
+    .card h2 {
+        font-size: 2.3rem;
+    }
+
+}
