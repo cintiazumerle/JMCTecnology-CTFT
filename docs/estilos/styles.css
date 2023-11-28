@@ -286,17 +286,14 @@ th, td {
 }
 
 /* Footer */
+    
 * {
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     letter-spacing: 1px;
     position: relative;
-}
-
-main {
-    height: 80vh;
 }
 
 footer {
@@ -310,7 +307,7 @@ footer {
 
 .footer-row {
     background-color: #153d8a;
-    padding: 0.75rem 2rem;;
+    padding: 1rem 2.2rem;
 }
 
 .flex-container {
@@ -323,14 +320,9 @@ footer {
     align-content: space-between;
   }
 
-#footer_contacts h1 {
-    margin-bottom: 0.5rem;
-}
-
 #footer_social_media {
     display: flex;
-    gap: 2rem;
-    margin-top: 1.5rem;
+    gap: 1.5rem;
 }   
 
 #footer_social_media .footer-link {
@@ -340,16 +332,12 @@ footer {
     height: 2.5rem;
     width: 2.5rem;
     color: #fff;
-    border-radius: 50%;
+    border-radius: 50vw;
     transition: all 0.4s;
 }
 
 #footer_social_media .footer-link i {
-    font-size: 1.25rem;
-}
-
-#footer_social_media .footer-link:hover {
-    opacity: 0.8;
+    font-size: 1.3rem;
 }
 
 #whatsapp {
@@ -374,19 +362,51 @@ footer {
 
 #footer_location i {
     margin-right: 5px;
-}
-
-.footer-list {
-    gap: 0.5rem;
+    flex-direction: column;
 }
 
 .footer_copyright {
-   position: absolute;
+    position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     font-size: 1rem;
     font-weight: 20;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .footer-row {
+        padding: 1.5rem;
+    }
+
+    .flex-container {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    #footer_social_media {
+        flex-direction: row; 
+        margin-top: 0.5rem; 
+    }
+
+    #footer_social_media .footer-link {
+        height: 2rem;
+        width: 2rem;
+        margin-right: 0.5rem; /
+    }
+
+    #footer_location {
+        text-align: center;
+    }
+
+    .footer_copyright {
+        position: static;
+        transform: none;
+        text-align: center; 
+        margin-top: 2rem;
+    }
+
 }
 
 /* Responsivo do site */
@@ -443,7 +463,7 @@ footer {
 
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 900px) {
     header {
         min-width: 300px;
     }
