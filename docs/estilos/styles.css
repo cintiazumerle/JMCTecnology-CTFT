@@ -34,6 +34,7 @@ header {
     background-position: center center;
     background-blend-mode: normal, multiply, normal;
     background-size: cover;
+    padding-inline: 16px;
 }
 
 header .menu {
