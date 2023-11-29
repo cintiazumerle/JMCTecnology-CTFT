@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
 html, body {
-    height: 100%;
+    height: 100vw;
     scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
 }
 
 
@@ -19,7 +25,7 @@ html, body {
 }
 
 header {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     min-width: 800px;
     padding: 40px 2%;
@@ -31,7 +37,6 @@ header {
 }
 
 header .menu {
-    width: 100%;
     height: 100px;
     background-color: #153d8a;
     border-radius: 20px;
@@ -86,7 +91,6 @@ nav {
 }
 
 .call {
-    width: 100%;
     height: 50px;
     background: #fff;
     box-shadow: 0 0 10px #00aeef;
@@ -98,7 +102,7 @@ nav {
 
 .funcional {
     width: 100%;
-    height: 50px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +110,7 @@ nav {
 }
 
 .funcional h1{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -161,7 +165,7 @@ nav {
 /* Sobre-Nos */
 
 #structure {
-    width: 100%;
+    width: 100vw;
     height: auto;
 }
 
@@ -185,37 +189,36 @@ nav {
     justify-content: center;
     align-items: center;
     margin: 100px auto;
-    width: 90%;
+    width: 90vw;
 }
 
 .text p {
     font-size: 30px;
     text-align: justify;
+    padding: 10px;
 }
 
 .img-about img {
     max-width: 500px;
     border-radius: 10px;
     border: 3px solid #00aeef;
-    margin: 30px;
 }
 
 
 /* Modalidades */
 .container-type{
-    width: 100%;
+    width: 100vw;
     height: auto;
 }
 
 .container-card {
-    margin: 10px;
     width: 100%;
 }
 
 .card{
     width: 40%;
     height: auto;
-    margin: 60px 60px 0;
+    margin-left: 50px;
     display: inline-block;
     justify-content: center;
     align-items: center;
@@ -291,21 +294,18 @@ th, td {
 }
 
 /* Footer */
+    
 * {
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     letter-spacing: 1px;
     position: relative;
 }
 
-main {
-    height: 80vh;
-}
-
 footer {
-    width: 100%;
+    width: 100vw;
     color: #fff;
 }
 
@@ -315,7 +315,7 @@ footer {
 
 .footer-row {
     background-color: #153d8a;
-    padding: 0.75rem 2rem;
+    padding: 1rem 2.2rem;
 }
 
 .flex-container {
@@ -328,14 +328,9 @@ footer {
     align-content: space-between;
   }
 
-#footer_contacts h1 {
-    margin-bottom: 0.5rem;
-}
-
 #footer_social_media {
     display: flex;
-    gap: 2rem;
-    margin-top: 1.5rem;
+    gap: 1.5rem;
 }   
 
 #footer_social_media .footer-link {
@@ -345,16 +340,12 @@ footer {
     height: 2.5rem;
     width: 2.5rem;
     color: #fff;
-    border-radius: 50%;
+    border-radius: 50vw;
     transition: all 0.4s;
 }
 
 #footer_social_media .footer-link i {
-    font-size: 1.25rem;
-}
-
-#footer_social_media .footer-link:hover {
-    opacity: 0.8;
+    font-size: 1.3rem;
 }
 
 #whatsapp {
@@ -379,19 +370,51 @@ footer {
 
 #footer_location i {
     margin-right: 5px;
-}
-
-.footer-list {
-    gap: 0.5rem;
+    flex-direction: column;
 }
 
 .footer_copyright {
-   position: absolute;
+    position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     font-size: 1rem;
     font-weight: 20;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .footer-row {
+        padding: 1.5rem;
+    }
+
+    .flex-container {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    #footer_social_media {
+        flex-direction: row; 
+        margin-top: 0.5rem; 
+    }
+
+    #footer_social_media .footer-link {
+        height: 2rem;
+        width: 2rem;
+        margin-right: 0.5rem; /
+    }
+
+    #footer_location {
+        text-align: center;
+    }
+
+    .footer_copyright {
+        position: static;
+        transform: none;
+        text-align: center; 
+        margin-top: 2rem;
+    }
+
 }
 
 /* Responsivo do site */
@@ -439,7 +462,7 @@ footer {
 
     .card {
         padding: 20px;
-        width: 60%;
+        width: 60vw;
     }
 
     .card h2 {
@@ -448,7 +471,7 @@ footer {
 
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 900px) {
     header {
         min-width: 300px;
     }
@@ -458,7 +481,7 @@ footer {
     }
 
     .call {
-        height: 12%;
+        height: 12vw;
     }
 
     header .chamada1 h3{
@@ -491,9 +514,9 @@ footer {
     .text-container, .text-container2{
         min-width: 300px;
     }
-
+    
     .img-about img {
-        max-width: 384px;
+        width: 100%;
     }
 
     .container-type{
